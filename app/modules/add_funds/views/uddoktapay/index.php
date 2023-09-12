@@ -10,14 +10,9 @@
   <form class="form actionAddFundsForm" action="#" method="POST">
     <div class="row">
       <div class="col-md-12">
-        <div class="for-group text-center">
-          <img src="<?=BASE?>/assets/images/uddoktapay.png" alt="Uddoktapay icon">
-          <p class="p-t-10"><small><?=sprintf(lang("you_can_deposit_funds_with_uddoktapay_they_will_be_automaticly_added_into_your_account"), 'Uddoktapay')?></small></p>
-        </div>
-
         <div class="form-group">
           <label><?=sprintf(lang("amount_usd"), $currency_code)?></label>
-          <input class="form-control square" type="number" name="amount" placeholder="<?php echo $min_amount; ?>">
+          <input class="form-control square" type="text" name="amount" placeholder="<?php echo $min_amount; ?>">
         </div>                      
 
         <div class="form-group">
