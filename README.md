@@ -1,5 +1,5 @@
-# Smart-Smm-Panel-v4
-This is Smart Smm Panel v4 module.
+# Smart-Smm-Panel-v3.5
+This is Smart Smm Panel v3.5 module.
 
 # How to install?
 Step-1: Download all files & upload on your server.
